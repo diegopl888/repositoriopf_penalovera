@@ -35,7 +35,7 @@ public class Proyecto_final {
         promedioCompras = totalCompras / 4;
         // Salida de datos
         System.out.println();
-        System.out.println("RESULTADOS");
+        System.out.println("LOS RESULTADOS");
         System.out.println("Cliente: " + nombreCliente);
         System.out.println("Total compras: " + totalCompras);
         System.out.println("Promedio compras: " + promedioCompras);
