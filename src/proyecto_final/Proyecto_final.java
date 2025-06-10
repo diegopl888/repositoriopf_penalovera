@@ -4,9 +4,10 @@ import java.util.Scanner;
 
 public class Proyecto_final {
     public static void main(String[] args) {
+       
         // Declarar variables
         String nombreCliente;
-        double compra1, compra2, compra3;
+        double compra1, compra2, compra3, compra4;
         double totalCompras, promedioCompras;
         Scanner lectura = new Scanner(System.in);
         
@@ -26,10 +27,12 @@ public class Proyecto_final {
         System.out.print("Ingrese el monto de la compra 3: ");
         compra3 = lectura.nextDouble();
         
-        // Procesamiento - Aplicar fórmulas
-        totalCompras = compra1 + compra2 + compra3;  // tc = compra1 + compra2 + compra3
-        promedioCompras = totalCompras / 3;          // pc = tc / 3
+        System.out.print("Ingrese el monto de la compra 4: ");
+        compra4 = lectura.nextDouble();
         
+        // Procesamiento - Aplicar fórmulas
+        totalCompras = compra1 + compra2 + compra3 + compra4;
+        promedioCompras = totalCompras / 4;
         // Salida de datos
         System.out.println();
         System.out.println("RESULTADOS");
